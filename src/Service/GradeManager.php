@@ -9,10 +9,6 @@ use App\Entity\Grade;
  */
 class GradeManager
 {
-    public function __construct()
-    {
-    }
-    
     public function getAverage(array $grades)
     {
         $sum = 0.0;
