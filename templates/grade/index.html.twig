@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello !{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    <h3>Average of grades is : {{ avg|round(2, 'floor') }}</h3>
+</div>
+{% endblock %}
